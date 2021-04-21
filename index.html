@@ -2,18 +2,9 @@
 <li><a href="yamarket://wishlist">Wish</a>
 
 <script>
-  window.shouldUpdateAddress = true;
-</script>
-
-<script>
   document.write("<li>" + document.cookie);
 </script>
-  
-  
-<script>
-  document.write("<li>" + (window.ExpressService ? "window.ExpressService" : "no express"));
-</script>  
-  
+
 <script>
   window.ExpressService && window.ExpressService.update({
     shouldUpdateAddress: true,
