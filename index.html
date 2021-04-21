@@ -9,3 +9,12 @@
   document.write("<li>" + document.cookie);
 </script>
   
+<script>
+  window.ExpressService && window.ExpressService.update({
+    shouldUpdateAddress: true,
+    warehousesCache: "ENCODED_CACHE",
+    expressNotAvailable: true,
+    edaNotAvailable: true
+  })
+</script>
+  
